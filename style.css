@@ -147,23 +147,102 @@ span {
 
 /* call-section */
 
-.call-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.call-section-parent {
+  min-height: 301px;
   display: flex;
+  align-items: center;
   justify-content: center;
-  position: relative;
-  top: 0;
-  left: 0;
+  /* width: 100%; */
 }
 
-.call-img-1 {
-  position: relative;
-  top: 0;
-  left: 0;
+.call-section {
+  margin-top: 100px;
+  min-height: 301px;
+  background: linear-gradient(90deg, rgba(255,132,0,1) 9%, rgba(255,132,0,0) 63%),url(./photos/watch.png) center no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  width: 100%;
+  /* display: flex;
+  justify-content: center; */
 }
-.call-img-2 {
-  position: absolute;
-  top: 50px;
-  left: 100px;
+
+.call-section h2 {
+  color: #fff;
+  font-size: 40px;
+  width: 40%;
+  /* text-align: start; */
+  margin-top: 50px;
+}
+
+.call-btn {
+  margin-left: 70px;
+  margin-top: 20px;
+  background-color: #fff;
+  color: orange;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.call-section h2, .call-btn {
+  margin-left: 130px;
+}
+
+/* footer section  */
+
+.footer {
+  min-height: 50vh;
+  background: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer h2 {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.contents-left p {
+  padding-bottom: 30px;
+}
+.contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contents input {
+  display: block;
+  margin-bottom: 40px;
+}
+.contents-left {
+  width: 40%;
+}
+.contents-right {
+  width: 40%;
+  padding-left: 250px;
+} 
+.contents-left img {
+  padding-right: 20px;
+}
+.email-input{
+  width: 300px;
+  height: 70px;
+  background: #000;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding-left: 30px;
+  font-family: "Work Sans";
+}
+.subs-button {
+  padding: 20px 35px;
+  border-radius: 10px;
+  background: white;
+  color: orange;
+  font-size: 20px;
+}
+.contents-right h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
 }
