@@ -206,6 +206,7 @@ span {
 }
 .contents-left p {
   padding-bottom: 30px;
+  font-weight: 300;
 }
 .contents {
   display: flex;
